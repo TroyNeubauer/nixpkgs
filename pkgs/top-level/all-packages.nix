@@ -21069,6 +21069,8 @@ with pkgs;
     protobuf = protobuf3_21;
   };
 
+  code-eli = callPackage ../development/libraries/code-eli { };
+
   coeurl = callPackage ../development/libraries/coeurl { };
 
   coercer = callPackage ../tools/security/coercer { };
