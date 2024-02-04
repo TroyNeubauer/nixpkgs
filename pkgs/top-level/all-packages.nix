@@ -1522,6 +1522,8 @@ with pkgs;
 
   amdgpu_top = callPackage ../tools/system/amdgpu_top { };
 
+  amd-uprof = callPackage ../tools/system/amd-uprof { };
+
   acquire = with python3Packages; toPythonApplication acquire;
 
   act = callPackage ../development/tools/misc/act { };
